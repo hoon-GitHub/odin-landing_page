@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    display: flex;
+}
+
+.menu {
+    background-color: #1f2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 200px;
+}
+
+.body_odd {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.body_even {
+    background-color: #e5e7eb;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 50px;
+}
