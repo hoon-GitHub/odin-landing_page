@@ -6,6 +6,10 @@ body {
 .container {
     width: 80%;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.container.nav {
     justify-content: space-between;
 }
 
@@ -56,6 +60,8 @@ li {
     justify-content: center;
 }
 
-.footer {
-    height: 50px;
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
