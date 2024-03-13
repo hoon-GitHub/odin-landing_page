@@ -6,7 +6,7 @@ body {
 .container {
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .menu {
@@ -78,7 +78,7 @@ body {
     justify-content: center;
 }
 
-.body2_div {
+.body2 div {
     margin-bottom: 80px;
     font-size: 20px;
     font-weight: bold;
@@ -87,7 +87,41 @@ body {
 }
 
 .body3 {
-    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.body3_div {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.body3_div p, button {
+    color: white;
+    margin: 0;
+}
+
+.call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign_up {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .copyright {
