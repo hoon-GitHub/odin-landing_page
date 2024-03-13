@@ -9,18 +9,18 @@ body {
     justify-content: space-evenly;
 }
 
-.container.nav {
+.menu {
     justify-content: space-between;
 }
 
-.menu {
+.header {
     background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: center;
 }
 
-ul {
+.menu ul {
     padding: 10px;
     margin: 0;
     display: flex;
@@ -29,13 +29,13 @@ ul {
     list-style: none;
 }
 
-li {
+.menu li {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.header,
+.title_section,
 .footer {
     background-color: #1f2937;
     color: white;
@@ -43,21 +43,51 @@ li {
     justify-content: center;
 }
 
-.header {
-    height: 200px;
+.title {
+    margin: 100px;
 }
 
-.body_odd {
-    height: 200px;
+.body_section1,
+.body_section2,
+.body_section3 {
     display: flex;
     justify-content: center;
 }
 
-.body_even {
+.body1 {
+    margin: 100px;
+}
+
+.body_section2 {
     background-color: #e5e7eb;
-    height: 200px;
+}
+
+.body2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body2 p {
+    font-style: italic;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
+}
+
+.body2_div {
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+}
+
+.body3 {
+    margin: 100px;
 }
 
 .copyright {
