@@ -171,16 +171,14 @@ body {
 }
 
 .body3_div {
+    width: 100%;
     background-color: #3882f6;
     border-radius: 8px;
     margin: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 7vw;
     padding: 4vh;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .body3_div p, button {
@@ -189,11 +187,13 @@ body {
 }
 
 .call {
+    width: 80%;
     font-size: 20px;
     font-weight: bold;
 }
 
 .sign_up {
+    width: 12%;
     background-color: #3882f6;
     border: 2px solid white;
     border-radius: 8px;
